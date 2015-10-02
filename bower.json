@@ -1,0 +1,7 @@
+{
+	"name": "atruestory",
+	"version": "<*= appVersion *>",
+	"description": "an interactive book on real life",
+	"dependencies": {
+	}
+}

@@ -1,0 +1,66 @@
+{
+  "name": "atruestory",
+  "version": "0.1.0",
+  "description": "an interactive book on real life",
+  "main": "src/app.js",
+  "author": {
+    "name": "DI (FH) Johannes Neugschwentner",
+    "email": "johannes.neugschwentner@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joehannes/atruestory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joehannes/atruestory/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: Pleae run 'gulp karma' or 'gulp protractor' or 'gulp karma-unit'\" && exit 1",
+    "unit": "gulp karma-unit",
+    "karma": "gulp karma",
+    "protractor": "gulp protractor",
+    "lint": "gulp lint",
+    "start": "gulp",
+    "build": "gulp build",
+    "postinstall": "bower install --config.interactive=false"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/joehannes/atruestory",
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-csslint": "^0.2.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-karma": "0.0.5",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-shell": "^0.4.3",
+    "gulp-sourcemaps": "^1.6.0",
+    "karma": "^0.13.10",
+    "serve": "^1.4.0"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "src"
+    },
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.7",
+      "angular-material": "github:angular/bower-material@^0.11.2",
+      "d3": "npm:d3@^3.5.6",
+      "jade": "github:johnsoftek/plugin-jade@^0.5.1",
+      "ng-harmony/ng-harmony": "github:ng-harmony/ng-harmony@^0.2.1",
+      "ng-harmony/ng-harmony-annotate": "github:ng-harmony/ng-harmony-annotate@^0.1.0",
+      "ng-harmony/ng-harmony-component": "github:ng-harmony/ng-harmony-component@^0.1.1",
+      "ng-harmony/ng-harmony-ioc": "github:ng-harmony/ng-harmony-ioc@^0.1.1",
+      "ng-harmony/ng-harmony-powercontroller": "github:ng-harmony/ng-harmony-powercontroller@^0.1.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
